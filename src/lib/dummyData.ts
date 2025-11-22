@@ -209,9 +209,10 @@ export const dummyPenilaian: Penilaian[] = [
 
 // Initialize localStorage with dummy data if empty
 export const initializeDummyData = () => {
-  if (!localStorage.getItem('dosen')) {
-    localStorage.setItem('dosen', JSON.stringify(dummyDosen));
-  }
+  // Always update dosen data from dummyDosen to ensure latest data
+  localStorage.setItem('dosen', JSON.stringify(dummyDosen));
+  
+  // Only initialize penilaian if empty (preserve existing penilaian)
   if (!localStorage.getItem('penilaian')) {
     localStorage.setItem('penilaian', JSON.stringify(dummyPenilaian));
   }
