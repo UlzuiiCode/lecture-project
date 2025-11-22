@@ -61,10 +61,6 @@ const Landing = () => {
                 alt="Sistem Penilaian Dosen"
                 className="rounded-2xl shadow-lg hover-lift"
               />
-              <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-xl shadow-lg">
-                <div className="text-3xl font-bold">AI-Powered</div>
-                <div className="text-sm">Decision Support System</div>
-              </div>
             </div>
           </div>
         </div>
