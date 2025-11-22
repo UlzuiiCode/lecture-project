@@ -3,53 +3,53 @@ import { Dosen, Penilaian } from '@/types/dosen';
 export const dummyDosen: Dosen[] = [
   {
     id: 'D001',
-    nama: 'Dr. Ahmad Fauzi, M.Kom',
-    nip: '198501152010121001',
-    foto: 'https://api.dicebear.com/7.x/avataaars/svg?seed=ahmad',
-    mataKuliah: ['Pemrograman Web', 'Basis Data', 'Algoritma'],
-    email: 'ahmad.fauzi@university.ac.id',
+    nama: 'Dr. Amirhud Dalimunthe, S.T., M.Kom.',
+    nip: '197506182008121002',
+    foto: 'https://api.dicebear.com/7.x/avataaars/svg?seed=amirhud',
+    mataKuliah: ['Matematika Lanjutan', 'Basis Data'],
+    email: 'amirhud.dalimunthe@university.ac.id',
     jabatan: 'Lektor Kepala'
   },
   {
     id: 'D002',
-    nama: 'Prof. Siti Nurhaliza, Ph.D',
-    nip: '197803201999032001',
-    foto: 'https://api.dicebear.com/7.x/avataaars/svg?seed=siti',
-    mataKuliah: ['Kecerdasan Buatan', 'Machine Learning', 'Data Mining'],
-    email: 'siti.nurhaliza@university.ac.id',
-    jabatan: 'Guru Besar'
+    nama: 'Rosma Siregar, S.Kom., M.Kom.',
+    nip: '199605072022032024',
+    foto: 'https://api.dicebear.com/7.x/avataaars/svg?seed=rosma',
+    mataKuliah: ['Disain Grafis', 'Struktur Data'],
+    email: 'rosma.siregar@university.ac.id',
+    jabatan: 'Asisten Ahli'
   },
   {
     id: 'D003',
-    nama: 'Budi Santoso, M.T',
+    nama: 'Muhammad Akbar Syahbana Pane, S.T., M.Sc',
     nip: '199012102015041002',
-    foto: 'https://api.dicebear.com/7.x/avataaars/svg?seed=budi',
-    mataKuliah: ['Sistem Operasi', 'Jaringan Komputer'],
-    email: 'budi.santoso@university.ac.id',
+    foto: 'https://api.dicebear.com/7.x/avataaars/svg?seed=akbar',
+    mataKuliah: ['Cloud Computing', 'Sistem Pengambilan Keputusan'],
+    email: 'akbar.syahbana@university.ac.id',
     jabatan: 'Asisten Ahli'
   },
   {
     id: 'D004',
-    nama: 'Dr. Maya Sari, M.Sc',
-    nip: '198707152012122001',
-    foto: 'https://api.dicebear.com/7.x/avataaars/svg?seed=maya',
-    mataKuliah: ['Rekayasa Perangkat Lunak', 'Manajemen Proyek TI'],
-    email: 'maya.sari@university.ac.id',
+    nama: 'Reni Rahmadani, S.Kom., M.Kom.',
+    nip: '199303092019032023',
+    foto: 'https://api.dicebear.com/7.x/avataaars/svg?seed=reni',
+    mataKuliah: ['TIK', 'Rekayasa Perangkat Lunak'],
+    email: 'reni.rahmadani@university.ac.id',
     jabatan: 'Lektor'
   },
   {
     id: 'D005',
-    nama: 'Andi Wijaya, M.Kom',
-    nip: '199205102016091001',
-    foto: 'https://api.dicebear.com/7.x/avataaars/svg?seed=andi',
-    mataKuliah: ['Pemrograman Mobile', 'UI/UX Design'],
-    email: 'andi.wijaya@university.ac.id',
-    jabatan: 'Asisten Ahli'
+    nama: 'Bagoes Maulana, S.Kom., M.Kom.',
+    nip: '198505122015041002',
+    foto: 'https://api.dicebear.com/7.x/avataaars/svg?seed=bagoes',
+    mataKuliah: ['Pemrograman Dasar', 'Internet of Things'],
+    email: 'bagoes.maulana@university.ac.id',
+    jabatan: 'Lektor'
   }
 ];
 
 export const dummyPenilaian: Penilaian[] = [
-  // Penilaian untuk Dr. Ahmad Fauzi
+  // Penilaian untuk Dr. Amirhud Dalimunthe
   {
     id: 'P001',
     dosenId: 'D001',
@@ -83,7 +83,7 @@ export const dummyPenilaian: Penilaian[] = [
     timestamp: '2025-01-17T09:15:00Z'
   },
   
-  // Penilaian untuk Prof. Siti Nurhaliza
+  // Penilaian untuk Rosma Siregar
   {
     id: 'P004',
     dosenId: 'D002',
@@ -127,7 +127,7 @@ export const dummyPenilaian: Penilaian[] = [
     timestamp: '2025-01-19T15:00:00Z'
   },
 
-  // Penilaian untuk Budi Santoso
+  // Penilaian untuk Muhammad Akbar Syahbana Pane
   {
     id: 'P008',
     dosenId: 'D003',
@@ -150,7 +150,7 @@ export const dummyPenilaian: Penilaian[] = [
     timestamp: '2025-01-17T14:30:00Z'
   },
 
-  // Penilaian untuk Dr. Maya Sari
+  // Penilaian untuk Reni Rahmadani
   {
     id: 'P010',
     dosenId: 'D004',
@@ -183,7 +183,7 @@ export const dummyPenilaian: Penilaian[] = [
     timestamp: '2025-01-19T10:00:00Z'
   },
 
-  // Penilaian untuk Andi Wijaya
+  // Penilaian untuk Bagoes Maulana
   {
     id: 'P013',
     dosenId: 'D005',
